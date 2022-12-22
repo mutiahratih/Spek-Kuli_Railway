@@ -1,0 +1,116 @@
+#navbarMenu{
+    position: absolute;
+    right: 5%;
+}
+  
+.carouselWideR{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-10%, -50%);
+    height: fit-content;
+}
+  
+.carouselWideL{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-10%, -50%);
+    height: fit-content;
+}
+  
+.carousel-caption{
+    position: absolute;
+    top: 12%;
+}
+  
+.leftS3{
+    background-color: rgba(0, 0, 0, 0.7);  
+}
+  
+.rightS3{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+.navbar {
+    /* background: rgba(0, 0, 0, 0.005); */
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 999;
+}
+  
+.nav-link,
+.navbar-brand {
+    color: #ffff;
+    cursor: pointer;
+}
+  
+.nav-link {
+    margin-right: 1em !important;
+    border-radius: 10px;
+}
+  
+.nav-link:hover {
+    color: #ed6b23;
+}
+  
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#login {
+    border-radius: 10px;
+    background: rgb(237, 107, 35);
+}
+
+#login:hover {
+    color: #2d2a70;
+}
+
+
+#footer{
+    bottom: 0;
+    background-color: #2d2a70;
+    height: 50vh;
+}
+
+.socialE li{
+    float: left;
+    list-style: none;
+    margin: 3%;
+}
+
+.leftS3{
+    width: 50vh;
+    position: relative;
+    top: 25%;
+}
+
+.rightS3{
+    width: 50vh;
+    position: relative;
+    top: 50%;
+}
+
+.colS3{
+    height: 75vh;
+}
+
+#logo{
+    max-width: 100px;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+
+.colContact{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 300px) {
+    #footer {
+        height: 120vh;
+    }
+}
